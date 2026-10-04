@@ -9,7 +9,13 @@
     <title>まなびのクラフト冒険</title>
     <script type="module" crossorigin src="/manabi-bridge-adventure/assets/index-IjJ5TI4G.js"></script>
     <link rel="stylesheet" crossorigin href="/manabi-bridge-adventure/assets/index-B4xTGDmo.css">
-  </head>
+<!-- PWA start -->
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="apple-touch-icon" href="./icons/icon-192.png">
+    <link rel="stylesheet" href="./pwa.css">
+    <script defer src="./pwa-client.js" data-pwa-app="manabi-bridge-adventure" data-pwa-title="まなびのクラフト冒険"></script>
+    <!-- PWA end -->
+</head>
   <body>
     <div id="app"></div>
   </body>
